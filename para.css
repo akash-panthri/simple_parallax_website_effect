@@ -1,0 +1,134 @@
+.par,.par1,.pas,#did,#did1{
+    height: 100vh;
+    width: 100%;
+    background-repeat: repeat-y;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+#txt,#txt2,#sad,#den{
+    padding: 2% 2% 3% 3%;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    text-decoration: solid;
+    width: 50%;
+    position: static;
+}
+#img6,#img2{
+    justify-content: center;
+    position: relative;
+    display: flex;
+}
+#txt{
+    background-color: rgba(37, 204, 247, 0.5);
+}
+#txt2{
+    background-color: rgba(202, 211, 200, 0.7);
+}
+.nan,.man{
+    height: 200vh;
+    width: 100%;    
+    display: flex;    
+    justify-content: center;
+    position: relative;
+}
+.pas{
+    position: static;
+}
+#sad{
+    background-color: rgba(203, 195, 227, 0.5);
+}
+.col{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+#did,#did1{
+    position: absolute;
+    left :0;    
+}
+#den{
+    background-color: rgba(203, 195, 227, 0.5);
+    z-index: 1;
+}
+#img1{
+    background-image: url('https://images.unsplash.com/photo-1690839589361-e16bd93ac2bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80');
+}
+#img4{
+    background-image: url('https://images.unsplash.com/photo-1691158429157-452d88254002?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+}
+#img3{
+    background-image: url('https://images.unsplash.com/photo-1682695799561-033f55f75b25?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+}
+#img2{
+    background-image: url('https://images.unsplash.com/photo-1690651166371-6d5a5412db4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+}
+#img5{
+    background-image: url('https://images.unsplash.com/photo-1682687982185-531d09ec56fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+}
+#img6{    
+    background-image: url('https://images.unsplash.com/photo-1691019807758-3647f75a3154?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1064&q=80');
+}
+#img7{
+    background-image: url('https://images.unsplash.com/photo-1690702692243-337544c6913b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1064&q=80');
+}
+#img8{
+    background-image: url('https://images.unsplash.com/photo-1690922819903-6f2c61b81406?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80');
+}
+#img9{
+    background-image: url('https://images.unsplash.com/photo-1690912638275-ab6d936008b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80');
+}
+#v1{
+    background-image: url('https://images.unsplash.com/photo-1690912638275-ab6d936008b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80');
+}
+#v2{
+    background-image: url('https://images.unsplash.com/photo-1690922819903-6f2c61b81406?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80');
+}
+#did{
+    background-image: url('https://images.unsplash.com/photo-1540736197913-683c90604116?auto=format&fit=crop&q=80&w=870&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+#did1{
+    background-image: url('https://images.unsplash.com/photo-1480797571962-18ab07ee47ab?auto=format&fit=crop&q=80&w=870&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    bottom: 0;
+
+}
+@media screen and (max-width:1800px){
+    *{
+        font-size:1.75vw;
+    }
+}
+@media screen and (max-width:1000px){
+    *{
+        font-size: 2.25vw;
+    }
+}
+@media screen and ( max-width:720px){
+    *{
+        font-size: 3.5vw;
+    }
+
+}
+
+@media screen and ( max-width: 575px ){
+    *{
+        font-size: 3.0vw;
+    }
+    
+}
+
+@media screen and ( max-width: 360px ){
+    *{
+        font-size: 3.5vw;
+    }
+    
+}
+
+@media screen and ( max-width: 250px ){
+    *{
+        font-size: 2.75vw;
+    }
+    
+}
+
+
+
